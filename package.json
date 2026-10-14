@@ -1,0 +1,13 @@
+{
+  "name": "expense-tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:server": "node --watch --env-file=.env server/dev.js",
+    "dev:client": "npm run dev --prefix client"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2"
+  }
+}
